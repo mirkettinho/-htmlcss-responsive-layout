@@ -1,5 +1,110 @@
+/* GENERAL */
 *{
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+}
+
+
+.flex{
+  display: flex;
+}
+
+.justify-content{
+  justify-content: space-between;
+}
+
+.wrap{
+  flex-wrap: wrap;
+}
+
+.container{
+  width: 360px;
+  width: 90%;
+  margin: 0 auto;
+   /* DEBUG DA TOGLIERE */
+}
+/* HEADER */
+
+header{
+  width: 100%;
+  height: 5vh;
+  background-color: #0084fd;
+}
+
+nav ul{
+  list-style: none;
+}
+
+nav ul li{
+  display: inline-block;
+}
+
+
+/* MAIN */
+
+/* TABLET
+.col{
+  width: calc(100% / 3);
+  background-color: aquamarine;
+}
+
+.col.first{
+  width: 70%;
+  background-color: beige;
+}
+
+.col.second{
+  width: 30%;
+  background-color: azure;
+} */
+
+.col{
+  width: 100%;
+  background-color: aqua;
+  height: 200px;
+  border: 1px solid black; /* debug da eliminare */
+}
+
+.col.first{
+  height: 400px;
+  background-color: blue;
+}
+
+.planning, 
+.benefits,
+.prize 
+{
+  background-color: #9792e4;
+}
+.planning .container .item{
+  width: 100%;
+  height: 300px;
+  background-color: chartreuse;
+  border: 1px solid black;
+}
+
+.benefits{
+  background-color: #9792e4;
+}
+
+
+
+
+
+
+/* FOOTER */
+
+footer{
+  background-color: #333333;
+}
+
+
+
+
+
+@media screen and (min-width: 768px){
+  .col{
+    width: 10%;
+  }
 }
