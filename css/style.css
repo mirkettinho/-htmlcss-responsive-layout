@@ -43,21 +43,6 @@ nav ul li{
 
 /* MAIN */
 
-/* TABLET
-.col{
-  width: calc(100% / 3);
-  background-color: aquamarine;
-}
-
-.col.first{
-  width: 70%;
-  background-color: beige;
-}
-
-.col.second{
-  width: 30%;
-  background-color: azure;
-} */
 
 .col{
   width: 100%;
@@ -70,6 +55,7 @@ nav ul li{
   height: 400px;
   background-color: blue;
 }
+
 
 .planning, 
 .benefits,
@@ -102,9 +88,32 @@ footer{
 
 
 
-
+/* TABLET RESPONSIVE */
 @media screen and (min-width: 768px){
+  .row{
+    display: flex;
+    flex-wrap: wrap;
+  }
   .col{
-    width: 10%;
+    width: calc(100% / 3);
+    background-color: aquamarine;
+  }
+  .col.first{
+    width: 70%;
+    background-color: beige;
+  }
+  .col.second{
+    width: 30%;
+    height: 400px;
+    background-color: azure;
+  } 
+  .testimonial .row{
+    flex-direction: column;
+  }
+  .row.fifty .col{
+    width: calc(100% / 2);
+  }
+  .about-us{
+    display: flex;
   }
 }
