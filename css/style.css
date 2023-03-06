@@ -117,3 +117,20 @@ footer{
     display: flex;
   }
 }
+
+
+/* DESKTOP RESPONSIVE */
+@media screen and (min-width: 1024px){
+  .container{
+    width: 1440px;
+  }
+  .planning .container{
+    display: flex;
+  }
+  .row.fifty .col{
+    width: calc(100% / 3);
+  }
+  .about-us .text{
+    width: 70%;
+  }
+}
