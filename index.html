@@ -4,17 +4,22 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
   <link rel="stylesheet" href="css/style.css">
   <title>Responsive Layout</title>
 </head>
 <body>
 
   <!-- HEADER: CONTAINS THE NAVIGATION BAR -->
-  <header>
-    <nav>
-      <ul class="flex justify-content">
-        <li><a href="">logo</a></li>
-        <li><a href="">!!!</a></li>
+  <header class="flex align-items"> 
+    <nav class="container">
+      <ul class="flex justify-content align-items">
+        <li><a href="">
+          <img id="logo" src="img/logo.png" alt="logo" title="logo">
+        </a></li>
+        <li><a href="">
+          <i class="fa-solid fa-bars white"></i>
+        </a></li>
       </ul>
     </nav>
   </header>
@@ -24,111 +29,203 @@
     <div class="container">
       <div class="row">
 
+        <!-- CARD 1 -->
         <div class="col first">
-          addd
+          <div class="card blue relative">
+            <h3>Get a demo application</h3>
+            <p class="pbottom">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Numquam illo officia necessitatibus alias harum distinctio autem perspiciatis, vel voluptatem!</p>
+            <a class="btn" href="#">
+              <i class="fa-brands fa-apple"></i>
+              App Store</a>
+            <img src="img/phone.png" alt="">
+          </div>
         </div>
-        <div class="col second">
-          bddd
+
+        <!-- CARD 2 -->
+        <div class="col second center">
+          <div class="card blue">
+            <i class="fa-solid fa-file-code"></i>
+            <h3>Clean Code</h3>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Numquam illo officia necessitatibus alias harum distinctio autem perspiciatis, vel voluptatem!</p>
+          </div>
         </div>
-        <div class="col">
-          cddd
+
+        <!-- CARD 3 -->
+        <div class="col center">
+          <div class="card blue">
+            <i class="fa-solid fa-compass-drafting"></i>
+            <h3>Web Design</h3>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Numquam illo officia necessitatibus alias harum distinctio autem perspiciatis, vel voluptatem!</p>
+          </div>
         </div>
-        <div class="col">
-          dddd
+
+        <!-- CARD 4 -->
+        <div class="col center">
+          <div class="card blue">
+            <i class="fa-solid fa-laptop-code"></i>
+            <h3>Developement</h3>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Numquam illo officia necessitatibus alias harum distinctio autem perspiciatis, vel voluptatem!</p>
+          </div>
         </div>
-        <div class="col">
-          eddd
+
+        <div class="col center">
+          <div class="card blue">
+            <i class="fa-solid fa-bullhorn"></i>
+            <h3>Branding</h3>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Numquam illo officia necessitatibus alias harum distinctio autem perspiciatis, vel voluptatem!</p>
+          </div>
         </div>
 
       </div>
     </div>
 
 
+    <!-- PLANNING -->
     <section class="planning">
 
       <div class="container">
+
+        <!-- ITEM 1 -->
         <div class="item">
-          <img src="" alt="">
-          <h2>titolo</h2>
-          <p>prova</p>
+          <img class="itemone-image" src="img/planning1.png" alt="planing" title="planing">
+          <h2 class="white">Strategic Planning</h2>
+          <p class="white">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quidem beatae sed reprehenderit eum inventore, eligendi, ratione nemo dolorum voluptates, ipsum aliquam numquam error perferendis laudantium totam vel maxime.</p>
         </div>
-        <div class="item">
-          <img src="" alt="">
-          <h2></h2>
-          <p></p>
+
+        <!-- ITEM 2 -->
+        <div class="item two relative">
+          <img  src="img/planning2.png" alt="">
+          <h2>App Developement</h2>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti alias incidunt consequuntur dolorum beatae minima ab commodi?</p>
+          <i class="fa-solid fa-arrow-down"></i>
         </div>
+      </div>
+      <div class="purple">
+        
       </div>
 
     </section>
 
 
+    <!-- TESTIMONIAL -->
     <section class="testimonial container">
 
       <div class="text">
-        <h4>sium</h4>
-        <h2>ciao</h2>
-        <p>prova</p>
+        <h4>TESTIMONIAL</h4>
+        <h2>We are committed expert partners</h2>
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Cumque officia provident amet alias in, consequatur obcaecati harum impedit reiciendis sequi quasi eligendi ea aliquam sapiente.</p>
       </div>
 
       <div class="row">
 
         <div class="col">
-          ciao
+          <div class="card  ">
+            <img src="img/testimonial1.jpg" alt="">
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Numquam illo officia necessitatibus alias harum distinctio autem perspiciatis, vel voluptatem!</p>
+          </div>
         </div>
+
         <div class="col">
-          come
+          <div class="card  ">
+            <img src="img/testimonial1.jpg" alt="">
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Numquam illo officia necessitatibus alias harum distinctio autem perspiciatis, vel voluptatem!</p>
+          </div>
         </div>
+
         <div class="col">
-          stai
+          <div class="card  ">
+            <img src="img/testimonial1.jpg" alt="">
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Numquam illo officia necessitatibus alias harum distinctio autem perspiciatis, vel voluptatem!</p>
+          </div>
         </div>
 
       </div>
 
     </section>
 
+
+    <!-- BENEFITS -->
     <section class="benefits">
       <div class="container">
         <div class="text">
-          <h2>ciaoooooooo</h2>
+          <h2>Benefits of working with us</h2>
         </div>
 
         <div class="row fifty">
 
           <div class="col">
-            a
+            <div class="card w blue">
+              <h1>01</h1>
+              <h3>Hight Quality</h3>
+              <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Numquam illo officia necessitatibus alias harum distinctio autem perspiciatis, vel voluptatem!</p>
+              <a class="btn" href="">more</a>
+            </div>
           </div>
+
           <div class="col">
-            b
+            <div class="card w blue">
+              <h1>01</h1>
+              <h3>Hight Quality</h3>
+              <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Numquam illo officia necessitatibus alias harum distinctio autem perspiciatis, vel voluptatem!</p>
+              <a class="btn" href="">more</a>
+            </div>
           </div>
+
           <div class="col ">
-            c
+            <div class="card w blue">
+              <h1>01</h1>
+              <h3>Hight Quality</h3>
+              <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Numquam illo officia necessitatibus alias harum distinctio autem perspiciatis, vel voluptatem!</p>
+              <a class="btn" href="">more</a>
+            </div>
           </div>
+
           <div class="col ">
-            d
+            <div class="card w blue">
+              <h1>01</h1>
+              <h3>Hight Quality</h3>
+              <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Numquam illo officia necessitatibus alias harum distinctio autem perspiciatis, vel voluptatem!</p>
+              <a class="btn" href="">more</a>
+            </div>
           </div>
+
           <div class="col ">
-            e
+            <div class="card w blue">
+              <h1>01</h1>
+              <h3>Hight Quality</h3>
+              <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Numquam illo officia necessitatibus alias harum distinctio autem perspiciatis, vel voluptatem!</p>
+              <a class="btn" href="">more</a>
+            </div>
           </div>
+
           <div class="col ">
-            f
+            <div class="card w blue">
+              <h1>01</h1>
+              <h3>Hight Quality</h3>
+              <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Numquam illo officia necessitatibus alias harum distinctio autem perspiciatis, vel voluptatem!</p>
+              <a class="btn" href="">more</a>
+            </div>
           </div>
 
         </div>
       </div>
     </section>
 
+
+
+    <!-- ABOUT US -->
     <section class="about-us container">
 
       <div class="text">
-        <h2>c</h2>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic, accusamus.</p>
-        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Molestias, neque.</p>
+        <h2 class="viola">About Us</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos ratione perferendis praesentium consectetur corporis rem nihil porro exercitationem quam reprehenderit, quis nam minus dolorum blanditiis accusantium rerum assumenda nesciunt totam! Quia accusantium excepturi necessitatibus illum ex reiciendis nobis unde! A.</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus repellat suscipit recusandae, dolore neque molestias excepturi in at maiores, placeat blanditiis voluptate itaque fuga ab corporis! Ratione dignissimos cumque officia!</p>
       </div>
 
       <div class="profile">
-        <img src="" alt="">
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio, iure?</p>
-        <a href="">cercami</a>
+        <img src="img/about.jpg" alt="">
+        <h2 class="viola">I help companies tincidunt tortor aliquam nulla facilisi cras fermentum odio.</h2>
+        <a class="btn" href="">cercami</a>
       </div>
 
     </section>
